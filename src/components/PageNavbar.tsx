@@ -40,7 +40,7 @@ function PageNavbar() {
                   </Form>
                 </Nav>
                 <Nav className='justify-content-endflex-grow-1 pe-3'>
-                  <Nav.Link href='#action1'>Shopping Cart</Nav.Link>
+                  <Nav.Link href='/cart'>Shopping Cart</Nav.Link>
                   <>
                     {currentUser ? (
                       // Display when user is signed in
