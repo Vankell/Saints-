@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Nike Airforce MAX 1",
+      "brand": "Nike",
+      "audience": "men",
+      "type": "shoe",
+      "price": 120
+    },
+    {
+      "id": 2,
+      "name": "Nike Airforce MAX 1",
+      "brand": "converse",
+      "audience": "women",
+      "type": "shoe",
+      "price": 60
+    },
+    {
+      "id": 3,
+      "name": "Nike Airforce MAX 1",
+      "brand": "New Balance",
+      "audience": "kids",
+      "type": "shoe",
+      "price": 45
+    },
+    {
+      "id": 4,
+      "name": "Nike Airforce MAX 1",
+      "brand": "Adidas",
+      "audience": "men",
+      "type": "clothing",
+      "price": 60
+    }
+  ]
+}

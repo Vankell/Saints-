@@ -25,11 +25,12 @@ function PageNavbar() {
               aria-labelledby='offcanvasNavbarDropdown-expand-lg'
               placement='end'>
               <Offcanvas.Header closeButton>
-                <Offcanvas.Title id='offcanvasNavbarDropdown-expand-lg'>Offcanvas</Offcanvas.Title>
+                <Offcanvas.Title id='offcanvasNavbarDropdown-expand-lg'>Saints</Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className='justify-content-start flex-grow-1 pe-3'>
                   <NavDropdown title='Products' id='offcanvasNavbarDropdown-expand-lg'>
+                    <NavDropdown.Item href='/products'>All Products</NavDropdown.Item>
                     <NavDropdown.Item href='#action3'>Women's Clothing</NavDropdown.Item>
                     <NavDropdown.Item href='#action4'>Men's Clothing</NavDropdown.Item>
                     <NavDropdown.Item href='#action5'>Kids' Clothing</NavDropdown.Item>
@@ -45,7 +46,7 @@ function PageNavbar() {
                     {currentUser ? (
                       // Display when user is signed in
                       <>
-                        <Nav.Link href='/account'>Account</Nav.Link>
+                        <Nav.Link href='/wishlist'>Wishlist</Nav.Link>
                         <Navbar.Text>
                           Signed in as: <a href='/account'>{currentUser.email}</a>
                         </Navbar.Text>
